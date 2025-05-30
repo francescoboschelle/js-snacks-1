@@ -23,7 +23,7 @@ if (string1) {
 } else if (string1.length > string2.length) {
   alert(string2);
   alert(string1);
-} else if (string1.length < string2.length) {
+} else {
   alert(string1);
   alert(string2);
 } */
