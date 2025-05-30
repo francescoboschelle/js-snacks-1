@@ -1,5 +1,5 @@
 const numbers = [];
-for (let i = 1; i >= 10; i++) {
+for (let i = 1; i <= 10; i++) {
   const input = Number(prompt("Inserisci un numero"));
 
   if (input && !isNaN(input)) {
@@ -11,7 +11,7 @@ for (let i = 1; i >= 10; i++) {
 }
 
 let sum = 0;
-for (let i = 0; i >= numbers.length - 1; i++) {
+for (let i = 0; i <= numbers.length - 1; i++) {
   sum += numbers[i];
 }
 
