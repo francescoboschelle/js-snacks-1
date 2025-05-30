@@ -2,7 +2,7 @@ const numbers = [];
 for (let i = 1; i <= 10; i++) {
   const input = Number(prompt("Inserisci un numero"));
 
-  if (input && !isNaN(input)) {
+  if (!isNaN(input)) {
     numbers.push(input);
   } else {
     alert("Devi inserire un numero valido! Per questo valore verrá usato 0.");
